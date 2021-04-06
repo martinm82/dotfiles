@@ -50,8 +50,8 @@
 [mergetool "p4merge"]
   path = /usr/local/bin/p4merge
 [gui]
-  fontui = -family \".Helvetica Neue DeskInterface\" -size 11 -weight normal -slant roman -underline 0 -overstrike 0
-  fontdiff = -family Monaco -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+  fontui = -size 11 -weight normal -slant roman -underline 0 -overstrike 0
+  fontdiff = -size 10 -weight normal -slant roman -underline 0 -overstrike 0
 [commit]
   gpgsign = true
 [tag]
