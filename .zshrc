@@ -115,3 +115,6 @@ export COMPOSER_MEMORY_LIMIT=-1
 #}
 #shopt -s extdebug
 #trap prod_command_trap DEBUG
+
+# added by travis gem
+[ ! -s ~/.travis/travis.sh ] || source ~/.travis/travis.sh
