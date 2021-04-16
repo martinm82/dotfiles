@@ -118,3 +118,5 @@ export COMPOSER_MEMORY_LIMIT=-1
 
 # added by travis gem
 [ ! -s ~/.travis/travis.sh ] || source ~/.travis/travis.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
