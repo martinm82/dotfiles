@@ -81,3 +81,6 @@ eval "$(pyenv init -)"
 
 # fuzzy search fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# jfrog cli
+[ -f ~/.jfrog/jfrog_bash_completion ] && source ~/.jfrog/jfrog_bash_completion
