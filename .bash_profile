@@ -63,7 +63,7 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 
-export PIP_REQUIRE_VIRTUALENV=true
+export PIP_REQUIRE_VIRTUALENV=false
 
 gpip() {
     PIP_REQUIRE_VIRTUALENV="" pip "$@"
