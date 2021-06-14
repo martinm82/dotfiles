@@ -79,6 +79,9 @@ eval "$(rbenv init -)"
 # pyenv
 eval "$(pyenv init -)"
 
+# jenv
+eval "$(jenv init -)"
+
 # fuzzy search fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
