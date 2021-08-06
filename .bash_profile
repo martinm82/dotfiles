@@ -87,3 +87,7 @@ eval "$(jenv init -)"
 
 # jfrog cli
 [ -f ~/.jfrog/jfrog_bash_completion ] && source ~/.jfrog/jfrog_bash_completion
+
+
+# Export path to MySQLWorkbench so that we can use the mysql commandline client.
+export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
