@@ -1,6 +1,10 @@
 [user]
   name = Martin Migasiewicz
   email = 616250+martinm82@users.noreply.github.com
+
+[includeIf "gitdir:~/workspace/git/github"]
+  path = ~/.gitconfig_private
+
 [core]
   editor = vim
   excludesfile = ~/.gitignore
